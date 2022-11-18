@@ -22,8 +22,10 @@ a {
 
 :root {
 	--black: #3B434E;
-	--white: #fff;
+	--light-gray: #C9C9C9;
+	--white: #FFF;
 	--primary: #7653FC;
+	--primary-hover: #6344DF;
 	--red: #FC836D;
 	--green: #1DC37E;
 	--light-green: #C8F8E4;
