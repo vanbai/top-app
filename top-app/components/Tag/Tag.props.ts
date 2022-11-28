@@ -1,7 +1,9 @@
 import { DetailedHTMLProps, HTMLAttributes, ReactNode } from "react";
 
 
-export interface ParagraphProps extends DetailedHTMLProps<HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement> {
+export interface TagProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
     children: ReactNode;
-    size?: 's' | 'm' | 'l';
+    size?: 's' | 'm';
+    color?: 'primary' | 'ghost' | 'grey' | 'green' | 'red';
+    href?: string;
 }
