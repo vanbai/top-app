@@ -1,1 +1,1 @@
-My React study project
+My Next.js study project
